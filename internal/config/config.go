@@ -37,6 +37,8 @@ var (
 		"crashlytics-build.properties",
 		"sysinfo.txt",
 		".git",
+		"README.md",
+		"Documents",
 	}
 
 	// ForbiddenExtensions for files
