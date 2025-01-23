@@ -60,16 +60,19 @@ In the examples below, replace `./Lee_P_m1` with the path to your Unity project 
 ```bash
 # Make binary executable
 chmod +x ./packager-macos
-./packager-macos ./Lee_P_m1 -mode check -name Lee_P_m1
-./packager-macos ./Lee_P_m1 -mode clean -name Lee_P_m1
+./packager-macos -dir ./Lee_P_m1 -mode check -name Lee_P_m1
+./packager-macos -dir ./Lee_P_m1 -mode clean -name Lee_P_m1
 ```
+You may receive a warning saying that the binary cannot be trusted...
+
+To bypass this, go to `System Preferences` -> `Security & Privacy` -> `General` -> Click `Open Anyway` next to the warning message.
 
 ### Linux
 ```bash
 # Make binary executable
 chmod +x ./packager-linux
-./packager-linux ./Lee_P_m1 -mode check -name Lee_P_m1
-./packager-linux ./Lee_P_m1 -mode clean -name Lee_P_m1
+./packager-linux -dir ./Lee_P_m1 -mode check -name Lee_P_m1
+./packager-linux -dir ./Lee_P_m1 -mode clean -name Lee_P_m1
 ```
 
 ## Contributing
