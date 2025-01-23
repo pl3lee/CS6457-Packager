@@ -22,6 +22,7 @@ A command-line tool to validate and clean Unity project structures for CS6457 as
    - Linux: `packager-linux`
 
 ### Build from Source
+You need to first install Go on your machine. Follow the instructions [here](https://go.dev/doc/install).
 ```bash
 # Clone repository
 git clone https://github.com/pl3lee/CS6457-Packager
@@ -65,7 +66,7 @@ chmod +x ./packager-macos
 ```
 You may receive a warning saying that the binary cannot be trusted...
 
-To bypass this, go to `System Preferences` -> `Security & Privacy` -> `General` -> Click `Open Anyway` next to the warning message.
+To bypass this, go to the "Privacy and Security" settings in the System Prefereces/Settings app, and click "Open Anyway" next to the warning message.
 
 ### Linux
 ```bash
