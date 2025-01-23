@@ -1,4 +1,4 @@
-.PHONY: build build-macos build-windows build-all
+.PHONY: build build-macos build-windows build-linux build-all
 
 build:
 	go build -o packager cmd/packager/main.go
