@@ -28,11 +28,15 @@ var (
 		"MemoryCaptures",
 		"Recordings",
 		".vs",
+		".vscode",
+		".vsconfig",
+		".gitignore",
 		".gradle",
 		"ExportedObj",
 		".consulo",
 		"crashlytics-build.properties",
 		"sysinfo.txt",
+		".git",
 	}
 
 	// ForbiddenExtensions for files

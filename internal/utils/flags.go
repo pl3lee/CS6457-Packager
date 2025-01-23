@@ -9,7 +9,7 @@ import (
 )
 
 func ParseFlags() config.AppConfig {
-	directory := flag.String("directory", "", "Directory path to process")
+	directory := flag.String("dir", "", "Directory path to process")
 	mode := flag.String("mode", "", "Mode: check or clean")
 	name := flag.String("name", "", "Project name (individual milestones: LASTNAME_FIRSTINITIAL_m[0-9]) (team deliverables: TEAMNAME_GAMENAME)")
 	flag.Parse()
