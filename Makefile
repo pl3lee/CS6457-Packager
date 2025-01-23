@@ -12,5 +12,7 @@ build-macos:
 build-windows:
 	GOOS=windows GOARCH=amd64 go build -o packager.exe cmd/packager/main.go
 
-build-all: build-macos build-windows
+build-linux:
 	GOOS=linux GOARCH=amd64 go build -o packager-linux cmd/packager/main.go
+
+build-all: build-macos build-windows build-linux
