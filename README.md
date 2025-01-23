@@ -49,6 +49,9 @@ See `internal/config/config.go` for the list of files and folders that are remov
 ```bash
 ./packager -dir <directory> -mode <check|clean> -name <project_name>
 ```
+- `directory`: Path to the root project directory.
+- `mode`: `check` or `clean`
+- `name`: Name that you will use to submit the project (e.g. in the format `LName_FName_mX` for individual milestones)
 
 In the examples below, replace `./Lee_P_m1` with the path to your Unity project directory, and `Lee_P_m1` with the name of your project.
 ### Windows
